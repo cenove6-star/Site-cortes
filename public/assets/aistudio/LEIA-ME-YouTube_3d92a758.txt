@@ -1,0 +1,15 @@
+Site Cortes — envio para YouTube
+
+O pacote inclui a conexão OAuth e o envio do vídeo exportado pelo próprio site. O envio pode ser manual ou automático ao terminar a gravação.
+
+Antes de usar a publicação:
+1. No Google Cloud Console, crie ou selecione um projeto e habilite “YouTube Data API v3”.
+2. Configure a tela de consentimento OAuth e adicione sua conta do YouTube como usuário de teste, se o Google pedir.
+3. Crie uma credencial OAuth do tipo “Web application”. Em “Authorized JavaScript origins”, adicione exatamente: http://localhost:8765
+4. Copie o Client ID (não é o segredo do cliente) para o campo “ID do cliente OAuth do Google” no site.
+5. Clique em “Conectar canal” e autorize. Escolha título, descrição e privacidade.
+6. Para automatizar o fluxo, deixe marcada a opção de enviar automaticamente e conecte o canal antes de começar a exportação.
+
+O navegador pede autorização Google para enviar vídeos. O token fica apenas em memória enquanto a página está aberta; o nome do canal e o Client ID ficam salvos localmente no navegador. O vídeo é enviado como arquivo WebM ou MP4 conforme o formato que o navegador gravar.
+
+O Google pode exigir verificação/revisão do app. Enquanto o app estiver no modo de teste, apenas as contas autorizadas na tela de consentimento poderão usar a integração. O envio automático requer que o canal já esteja conectado antes da gravação; se a autorização expirar durante uma gravação muito longa, conecte novamente e use “Enviar último vídeo gravado”.

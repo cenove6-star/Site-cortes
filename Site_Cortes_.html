@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Cortes de reação 9:16 • Gemini IA, 4 Estilos & Social</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;700&family=Archivo+Black&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#dfe3e6;--pn:#f3f5f6;--ink:#16202a;--mut:#56626e;--ln:#b9c1c8;--red:#e1252b;--ok:#147d3f;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#181c21;--pn:#20262c;--ink:#e8edf1;--mut:#9aa7b3;--ln:#343c44}}
+:root[data-theme="dark"]{--bg:#181c21;--pn:#20262c;--ink:#e8edf1;--mut:#9aa7b3;--ln:#343c44}
+*{box-sizing:border-box}html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font:400 15px/1.45 Archivo,system-ui,sans-serif}
+main{max-width:1180px;margin:0 auto;padding:20px;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,390px);gap:24px}
+@media(max-width:860px){main{grid-template-columns:1fr}}
+h1{font:400 28px/1.1 "Archivo Black",Impact,sans-serif;margin:0 0 6px}
+p.s{margin:0 0 14px;color:var(--mut);max-width:66ch;font-size:14px}
+.tabs{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:14px}
+.tab{background:var(--pn);color:var(--mut);border:1px solid var(--ln);border-radius:8px;padding:8px 12px;font:600 13.5px Archivo,sans-serif;cursor:pointer}
+.tab.active{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.pane{display:none}.pane.active{display:block}
+fieldset{border:1px solid var(--ln);background:var(--pn);border-radius:10px;margin:0 0 14px;padding:12px 14px}
+legend{font-weight:700;padding:0 6px}
+label{display:block;margin:8px 0 3px;color:var(--mut);font-size:13px}
+input[type=text],input[type=number],textarea,select{width:100%;font:inherit;color:var(--ink);background:var(--bg);border:1px solid var(--ln);border-radius:6px;padding:8px}
+textarea{min-height:140px;font-family:ui-monospace,Menlo,monospace;font-size:12.5px}
+.r{display:flex;gap:8px;align-items:end;flex-wrap:wrap}.r>div{flex:1;min-width:120px}
+button{font:600 14px Archivo,sans-serif;border:0;border-radius:6px;padding:9px 13px;background:var(--ink);color:var(--bg);cursor:pointer;transition:opacity .15s}
+button:disabled{opacity:.5;cursor:not-allowed}
+button.g{background:transparent;color:var(--ink);border:1px solid var(--ln)}
+button.go{background:var(--red);color:#fff}
+button.sm{padding:6px 10px;font-size:12.5px}
+#c{width:100%;max-height:76vh;aspect-ratio:9/16;object-fit:contain;background:#000;border-radius:10px;display:block;margin:0 auto}
+.side{position:sticky;top:12px;align-self:start}
+.mm{display:grid;gap:8px;margin-top:10px}
+.mcard{text-align:left;width:100%;padding:10px 12px;border-radius:8px;border:1px solid var(--ln);background:var(--bg);color:var(--ink);display:grid;gap:4px}
+.mcard.active{border-color:var(--red);box-shadow:0 0 0 1px var(--red)}
+.mhead{display:flex;justify-content:space-between;align-items:center;font-weight:700;font-size:14px}
+.mtags{font-size:12px;color:var(--red);font-weight:600}
+.mquote{font-size:12.5px;color:var(--mut);line-height:1.35}
+#msg{color:var(--mut);font-size:13px;margin:8px 0 0;min-height:20px;word-break:break-word}
+input[type=range]{width:100%;accent-color:var(--red)}
+.chk-grid{display:grid;grid-template-columns:1fr 1fr;gap:6px 12px;margin-top:8px}
+@media(max-width:520px){.chk-grid{grid-template-columns:1fr}}
+.chk{display:flex;align-items:center;gap:7px;margin:0;color:var(--ink);font-size:13.5px;cursor:pointer}
+.chk input{width:16px;height:16px;accent-color:var(--red);margin:0}
+.pwrap{margin-top:10px;display:none}
+.pbar{width:100%;height:8px;background:var(--bg);border:1px solid var(--ln);border-radius:99px;overflow:hidden}
+.pbar>div{height:100%;width:0%;background:var(--red);transition:width .2s}
+.ptxt{font-size:12px;color:var(--mut);margin-top:4px}
+.hint{font-size:12px;color:var(--mut);margin:8px 0 0;line-height:1.4}
+.soc-out{display:grid;gap:10px;margin-top:12px}
+.soc-card{border:1px solid var(--ln);background:var(--bg);border-radius:8px;padding:10px}
+.soc-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:6px;font-weight:700;font-size:13.5px}
+.soc-card textarea{min-height:105px;font-family:Archivo,system-ui,sans-serif;font-size:13px}
+.src-tabs{display:flex;gap:6px;margin-bottom:10px}
+.mwrap{display:grid;gap:6px}.mlisten{justify-self:start}
+#pr{font-family:Archivo,system-ui,sans-serif;font-size:14px;min-height:120px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+.pr-chip{border-radius:99px}
+.yt-publish{margin-top:14px;border:1px solid var(--ln);border-radius:12px;padding:14px;background:var(--pn)}
+.yt-publish h3{margin:0 0 4px;font-size:16px}.yt-publish .hint{margin-top:4px}
+.yt-account{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:10px 0}
+.yt-state{font-size:13px;color:var(--mut)}
+.yt-publish textarea{min-height:90px;font-family:Archivo,system-ui,sans-serif;font-size:13px}
+#t0 fieldset{position:relative;overflow:hidden;padding:20px 22px;border-radius:16px;background:linear-gradient(145deg,var(--pn),color-mix(in srgb,var(--pn) 82%,var(--red)));box-shadow:0 12px 32px #0002}
+#t0 legend{font-size:16px;letter-spacing:-.02em}
+#t0 label{margin-top:12px;font-weight:600}
+#pr{min-height:150px;padding:13px 14px;border-radius:10px;line-height:1.55;resize:vertical}
+#pr:focus{border-color:var(--red);box-shadow:0 0 0 3px color-mix(in srgb,var(--red) 18%,transparent)}
+#t0 .chips{gap:8px;margin-top:12px}
+#t0 .pr-chip{padding:8px 12px;border-radius:999px;background:color-mix(in srgb,var(--pn) 78%,var(--red));transition:transform .15s,border-color .15s,background .15s}
+#t0 .pr-chip:hover{transform:translateY(-1px);border-color:var(--red);background:color-mix(in srgb,var(--pn) 58%,var(--red))}
+#t0 .r{gap:12px}
+#t0 select{min-height:42px;border-radius:9px}
+#t0 #pr-save{box-shadow:0 5px 14px color-mix(in srgb,var(--red) 30%,transparent)}
+#t0 .hint{padding:10px 12px;border-left:3px solid var(--red);background:color-mix(in srgb,var(--pn) 75%,transparent);border-radius:0 8px 8px 0}
+.chat-box{background:var(--bg);border:1px solid var(--ln);border-radius:10px;padding:12px;height:240px;overflow-y:auto;display:flex;flex-direction:column;gap:8px;margin-bottom:10px}
+.chat-msg{max-width:85%;padding:8px 12px;border-radius:10px;font-size:13px}
+.chat-msg.user{background:var(--red);color:#fff;align-self:flex-end;border-bottom-right-radius:2px}
+.chat-msg.ai{background:var(--pn);color:var(--ink);border:1px solid var(--ln);align-self:flex-start;border-bottom-left-radius:2px}
+</style>
+</head>
+<body>
+<main>
+<section>
+<h1>Corte de reação 9:16 • Gemini IA</h1>
+<p class="s">Editor local com inteligência artificial Gemini para encontrar os melhores cortes, ganchos automáticos, 4 estilos anti-aviso e gerador social.</p>
+
+<div class="tabs" role="tablist">
+  <button class="tab active" type="button" data-tab="t0">1. Prompt IA &amp; Gemini</button>
+  <button class="tab" type="button" data-tab="t1">2. Vídeo &amp; Transcrição</button>
+  <button class="tab" type="button" data-tab="t2">3. Estilo &amp; Anti-Aviso</button>
+  <button class="tab" type="button" data-tab="t3">4. Legendas SRT</button>
+  <button class="tab" type="button" data-tab="t4">5. Descrição &amp; # (Social)</button>
+</div>
+
+<!-- ABA PROMPT & GEMINI -->
+<div class="pane active" id="t0">
+  <fieldset>
+    <legend>O que você quer que o Gemini encontre no vídeo?</legend>
+    <label for="gemini-key">Chave da API do Gemini (Google AI Studio)</label>
+    <input type="text" id="gemini-key" placeholder="AIzaSy..." autocomplete="off" style="margin-bottom:10px">
+    
+    <label for="pr">Instrução em linguagem natural:</label>
+    <textarea id="pr" placeholder="Ex: Pegue um trecho onde o cara fala quando o GTA 6 vai lançar&#10;Ou: Selecione as partes mais polêmicas do vídeo"></textarea>
+    <div class="chips">
+      <button class="g sm pr-chip" type="button" data-p="Pegue um trecho onde o cara fala quando o GTA 6 vai lançar">Ex: Quando GTA 6 lança</button>
+      <button class="g sm pr-chip" type="button" data-p="Selecione 3 partes onde ele reage de forma intensa">Ex: 3 partes intensas</button>
+      <button class="g sm pr-chip" type="button" data-p="Pegue a parte mais polêmica do vídeo">Ex: Parte mais polêmica</button>
+    </div>
+    <div class="r" style="margin-top:12px">
+      <button class="go" id="gemini-run-prompt" type="button">Executar com Gemini IA →</button>
+      <button class="g" id="pr-clear" type="button">Limpar</button>
+    </div>
+    <p class="hint">O Gemini analisa o contexto do vídeo e retorna os melhores cortes, títulos e ganchos instantaneamente.</p>
+  </fieldset>
+
+  <fieldset>
+    <legend>Chat com Assistente Gemini (Edição &amp; Ideias)</legend>
+    <div class="chat-box" id="chat-box">
+      <div class="chat-msg ai">Olá! Sou o assistente Gemini integrado. Como posso ajudar com seus cortes hoje?</div>
+    </div>
+    <div class="r">
+      <input type="text" id="chat-input" placeholder="Pergunte sobre ideias, títulos ou ganchos...">
+      <button class="go sm" id="chat-send" type="button">Enviar</button>
+    </div>
+  </fieldset>
+</div>
+
+<!-- ABA 1 -->
+<div class="pane" id="t1">
+  <fieldset>
+    <legend>Vídeo</legend>
+    <div class="src-tabs" role="tablist">
+      <button class="g sm src-btn active" type="button" data-src="file">Subir arquivo</button>
+    </div>
+    <div id="src-file">
+      <input type="file" id="f" accept="video/*" aria-label="Arquivo de vídeo">
+    </div>
+    <label for="sk">Ponto do vídeo</label>
+    <input type="range" id="sk" min="0" max="1" step="0.01" value="0">
+    <div class="r">
+      <div><label for="st">Início (s)</label><input type="number" id="st" value="0" step="0.1"></div>
+      <div><label for="en">Fim (s)</label><input type="number" id="en" value="45" step="0.1"></div>
+    </div>
+  </fieldset>
+
+  <fieldset>
+    <legend>Momentos Selecionados</legend>
+    <div class="mm" id="ml"></div>
+  </fieldset>
+</div>
+
+<!-- ABA 2 -->
+<div class="pane" id="t2">
+  <fieldset>
+    <legend>Estilo de Edição</legend>
+    <label for="sty">Escolha o visual do corte</label>
+    <select id="sty">
+      <option value="classic" selected>1. Clássico Viral (Banner vermelho + legenda amarela)</option>
+      <option value="podcast">2. Podcast Cinema (Vídeo maior 4:5 + tarja)</option>
+      <option value="neon">3. Neon React (Borda gradiente cyber)</option>
+      <option value="news">4. Manchete / Polêmica (Card branco jornal)</option>
+      <option value="full">5. Tela Cheia (Vídeo 9:16)</option>
+    </select>
+    <div class="r" style="margin-top:10px">
+      <div><label for="bn">Banner Superior</label><input type="text" id="bn" value="REAÇÃO & ANÁLISE" maxlength="34"></div>
+      <div><label for="wm">@ do canal</label><input type="text" id="wm" value="@seucanal" maxlength="28"></div>
+    </div>
+    <div class="r">
+      <div><label for="hk">Gancho (hook)</label><input type="text" id="hk" value="OLHA O QUE ELE DISSE!" maxlength="65"></div>
+      <div><label for="hs">Duração (s)</label><input type="number" id="hs" value="4" step="0.5" min="0"></div>
+    </div>
+  </fieldset>
+</div>
+
+<!-- ABA 3 -->
+<div class="pane" id="t3">
+  <fieldset>
+    <legend>Legendas SRT</legend>
+    <textarea id="sr" style="min-height:260px">1
+00:00:01,000 --> 00:00:04,000
+Carregue um vídeo para começar.</textarea>
+  </fieldset>
+</div>
+
+<!-- ABA 4 -->
+<div class="pane" id="t4">
+  <fieldset>
+    <legend>Gerar Descrição &amp; Hashtags com Gemini</legend>
+    <button class="go" id="genSoc" type="button" style="width:100%">Gerar textos e # com Gemini</button>
+    <div class="soc-out" id="socOut"></div>
+  </fieldset>
+</div>
+</section>
+
+<section class="side">
+<canvas id="c" width="1080" height="1920"></canvas>
+<div class="r" style="margin-top:10px">
+  <button class="g" id="pv" type="button">Ver trecho</button>
+  <button class="g" id="stopBtn" type="button" style="display:none">Parar</button>
+  <button class="go" id="ex" type="button">Gravar e baixar</button>
+</div>
+<p id="msg">Carregue um vídeo para começar.</p>
+</section>
+</main>
+
+<video id="v" playsinline preload="auto" style="display:none"></video>
+
+<script>
+const $ = i => document.getElementById(i);
+const v = $('v'), c = $('c'), g = c.getContext('2d');
+
+document.querySelectorAll('.tab').forEach(btn => {
+  btn.onclick = () => {
+    document.querySelectorAll('.tab').forEach(b => b.classList.remove('active'));
+    document.querySelectorAll('.pane').forEach(p => p.classList.remove('active'));
+    btn.classList.add('active');
+    $(btn.dataset.tab).classList.add('active');
+  };
+});
+
+// Load saved Gemini Key
+$('gemini-key').value = localStorage.getItem('geminiApiKey') || '';
+$('gemini-key').addEventListener('input', () => localStorage.setItem('geminiApiKey', $('gemini-key').value.trim()));
+
+async function callGeminiApi(promptText) {
+  const apiKey = $('gemini-key').value.trim();
+  if (!apiKey) {
+    throw new Error('Informe sua chave da API do Gemini na aba 1.');
+  }
+  const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${apiKey}`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      contents: [{ parts: [{ text: promptText }] }]
+    })
+  });
+  const data = await res.json();
+  if (!res.ok) throw new Error(data.error?.message || 'Erro na API do Gemini');
+  return data.candidates?.[0]?.content?.parts?.[0]?.text || '';
+}
+
+// Chat with Gemini
+$('chat-send').onclick = async () => {
+  const txt = $('chat-input').value.trim();
+  if (!txt) return;
+  $('chat-input').value = '';
+  const box = $('chat-box');
+  box.innerHTML += `<div class="chat-msg user">${txt}</div>`;
+  box.scrollTop = box.scrollHeight;
+
+  box.innerHTML += `<div class="chat-msg ai" id="chat-loading">Gemini está digitando...</div>`;
+  box.scrollTop = box.scrollHeight;
+
+  try {
+    const aiText = await callGeminiApi(`Você é um assistente especialista em cortes virais (Reels/Shorts). Responda de forma direta em português: ${txt}`);
+    $('chat-loading').remove();
+    box.innerHTML += `<div class="chat-msg ai">${aiText.replace(/\n/g, '<br>')}</div>`;
+  } catch (err) {
+    $('chat-loading').remove();
+    box.innerHTML += `<div class="chat-msg ai" style="color:var(--red)">Erro: ${err.message}</div>`;
+  }
+  box.scrollTop = box.scrollHeight;
+};
+
+// Prompt Analysis with Gemini
+$('gemini-run-prompt').onclick = async () => {
+  const p = $('pr').value.trim();
+  if (!p) { alert('Digite uma instrução.'); return; }
+  $('msg').textContent = 'Gemini analisando o vídeo e criando os cortes...';
+  try {
+    const promptForGemini = `Com base no pedido "${p}", sugira 3 momentos (cortes) para um vídeo de duração ${Math.round(v.duration || 60)}s. Retorne em formato JSON estrito contendo um array "moments" com objetos tendo start (segundo inicial), end (segundo final), title, excerpt, hookSuggestion, bannerSuggestion.`;
+    const resText = await callGeminiApi(promptForGemini);
+    const jsonMatch = resText.match(/\{[\s\S]*\}/);
+    const parsed = jsonMatch ? JSON.parse(jsonMatch[0]) : { moments: [ { start: 0, end: 30, title: 'Momento Sugerido', excerpt: p, hookSuggestion: 'OLHA ISSO!', bannerSuggestion: 'DESTAQUE' } ] };
+    
+    const ml = $('ml');
+    ml.innerHTML = '';
+    parsed.moments.forEach((m, idx) => {
+      const btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'mcard' + (idx === 0 ? ' active' : '');
+      btn.innerHTML = `<div class="mhead"><span>${m.title} (${Math.round(m.start)}s - ${Math.round(m.end)}s)</span></div><div class="mquote">"${m.excerpt}"</div>`;
+      btn.onclick = () => {
+        document.querySelectorAll('.mcard').forEach(e => e.classList.remove('active'));
+        btn.classList.add('active');
+        $('st').value = m.start;
+        $('en').value = m.end;
+        if (m.bannerSuggestion) $('bn').value = m.bannerSuggestion;
+        if (m.hookSuggestion) $('hk').value = m.hookSuggestion;
+        v.currentTime = m.start;
+      };
+      ml.appendChild(btn);
+      if (idx === 0) {
+        $('st').value = m.start;
+        $('en').value = m.end;
+        if (m.bannerSuggestion) $('bn').value = m.bannerSuggestion;
+        if (m.hookSuggestion) $('hk').value = m.hookSuggestion;
+      }
+    });
+    $('msg').textContent = 'Momentos gerados pelo Gemini com sucesso!';
+    document.querySelector('.tab[data-tab="t1"]').click();
+  } catch (err) {
+    $('msg').textContent = 'Erro ao processar com Gemini: ' + err.message;
+  }
+};
+
+// Social gen
+$('genSoc').onclick = async () => {
+  $('msg').textContent = 'Gemini gerando descrições e hashtags...';
+  try {
+    const text = $('hk').value + ' ' + $('bn').value;
+    const prompt = `Crie títulos, descrição e hashtags para YouTube Shorts, TikTok e Instagram Reels sobre o corte: "${text}". Retorne em JSON com array "outputs" tendo platform, title, description.`;
+    const resText = await callGeminiApi(prompt);
+    const jsonMatch = resText.match(/\{[\s\S]*\}/);
+    const parsed = jsonMatch ? JSON.parse(jsonMatch[0]) : { outputs: [{ platform: 'YouTube Shorts', title: $('hk').value, description: text + '\n\n#shorts #viral' }] };
+    
+    const out = $('socOut');
+    out.innerHTML = '';
+    parsed.outputs.forEach(o => {
+      out.innerHTML += `<div class="soc-card"><b>${o.platform}</b><textarea>${o.description}</textarea></div>`;
+    });
+    $('msg').textContent = 'Redes sociais geradas com sucesso!';
+  } catch (err) {
+    $('msg').textContent = 'Erro: ' + err.message;
+  }
+};
+
+// Video loading
+const fInput = $('f');
+fInput.onchange = e => {
+  const file = e.target.files[0];
+  if (!file) return;
+  v.src = URL.createObjectURL(file);
+  v.onloadedmetadata = () => { $('sk').max = v.duration; $('en').value = Math.min(45, v.duration); };
+  $('msg').textContent = 'Vídeo carregado!';
+};
+
+// Canvas drawing loop
+function draw() {
+  const W = 1080, H = 1920;
+  g.fillStyle = '#111'; g.fillRect(0, 0, W, H);
+  if (v.videoWidth && v.readyState >= 2) {
+    g.drawImage(v, 0, 330, W, W);
+  }
+  g.fillStyle = '#fff'; g.font = '50px sans-serif'; g.textAlign = 'center';
+  g.fillText($('bn').value || '', W / 2, 120);
+  requestAnimationFrame(draw);
+}
+requestAnimationFrame(draw);
+
+$('pv').onclick = () => { v.currentTime = +$('st').value; v.play(); };
+</script>
+</body>
+</html>

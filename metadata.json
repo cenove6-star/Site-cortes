@@ -1,0 +1,6 @@
+{
+  "name": "Cortes de Reação 9:16 com Gemini IA",
+  "description": "Gerador profissional de cortes virais 9:16 com inteligência artificial Gemini, legendas automáticas, 10 estilos de edição e chat assistente integrado.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
